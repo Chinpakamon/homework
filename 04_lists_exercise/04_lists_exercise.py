@@ -39,5 +39,4 @@ list3 = [0.9]
 
 # Your implementation here
 my_list = list(reversed(sorted(list1 + list2 + list3)))
-print(my_list)
 assert my_list == [14, 12, 6.2, 6, 5, 1, 0.9, 0]

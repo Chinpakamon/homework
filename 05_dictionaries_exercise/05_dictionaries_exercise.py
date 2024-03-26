@@ -21,7 +21,6 @@ dict3 = dict([("key2", 456), ("keyX", "X")])
 # 'Your impelementation'
 
 my_dict = {**dict1, **dict3, **{"key1": 123}}
-print(my_dict)
 special_value = dict2['special_key']
 assert my_dict == {"key1": 123, "key2": 456, "keyX": "X"}
 assert special_value == "secret"

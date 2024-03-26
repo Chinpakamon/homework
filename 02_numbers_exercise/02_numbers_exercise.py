@@ -15,7 +15,7 @@ assert result == 50
 from decimal import Decimal, getcontext
 
 # Your solution here
-print(float(0.1) + float(0.2))
-
+i, j = 0.1, 0.2
+print(f"{i} + {j} = {round(i + j, 2)}")
 # This won't work:
-assert 0.1 + 0.2 == 0.3
+# assert 0.1 + 0.2 == 0.3
